@@ -1,11 +1,11 @@
-# Tic Tac Toe - Weekend Lab
+# Tic Tac Toe Lab
 
 **Objective:** Build a tic-tac-toe game in HTML, CSS, and JavaScript.
 
 
-This week, we've been learning about working with conditionals and loops, as well as writing functions. We've also learned about the structure of the DOM and how we can interact with it using CSS and JavaScript. We've looked at Bootstrap's CSS library and at jQuery, a JavaScript library for front end web development.
+We've been learning about working with conditionals and loops, as well as writing functions. We've also learned about the structure of the DOM and how we can interact with it using CSS and JavaScript. We've looked at Bootstrap's CSS library and at jQuery, a JavaScript library for front end web development.
 
-For your first weekend lab, we'll be making a tic-tac-toe game using your knowledge and skills from this week.
+For this lab, we'll be making a tic-tac-toe game using the knowledge and skills you've learned so far.
 
 ## Baseline Requirements
 * Users should be able to click on any empty box to make a move.   
@@ -96,9 +96,10 @@ Remind yourself how tic-tac-toe works by playing a few games with a classmate.
 </details>
 
 
-
+<!--
 ## Submission
 
 * As you make code changes, frequently commit and push to GitHub.
 * Once you've finished the assignment and pushed your work to GitHub, make a pull request from your fork to the original repo.
 * When we come back, you'll show off your tic-tac-toe game in a "science fair" style open presentation!
+-->
