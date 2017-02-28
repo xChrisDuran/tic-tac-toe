@@ -1,14 +1,16 @@
 // wait for the DOM to finish loading
 $(document).ready(function() {
   // all code to manipulate the DOM
-  
+
   //var playerX = prompt("")
+  //interesting variable name
 var tttCounter = 0;
 
+///basically your logic is good, but you just need jquery listeners
 //winner is player 'x' or player 'o'
 var getChampion = function(){
 	if (winnerIs('x')){
-		console.log("Player x Wins!");                                                          
+		console.log("Player x Wins!");
 			return 'x';
 		} if (winnerIs ('o')) {
 			console.log("Player o Wins!");
@@ -18,6 +20,7 @@ var getChampion = function(){
 
 //The winner is... !
 //'player' can be 'x' or 'o'...
+//nice master function here
 var winnerIs = function (player){
 	return winsRow(player) || winsColum(player) || winsDiagnal(player);
 }
@@ -39,7 +42,7 @@ var winsColumn = function(player){
 	    allThree(player, boxValue('#c'), boxValue('#f'), boxValue('#i'));
 }
 
-//player wins by diagnal 
+//player wins by diagnal
 var winsDiagnal = function(player){
 	return allThree(player, boxValue('#a'), boxValue('#e'), boxValue('#i')) ||
 	  allThree(player, boxValue('#c'), boxValue('#e'), boxValue('#g'));
@@ -49,8 +52,9 @@ var allThree = function(player, boxOne, boxTwo, boxThree){
 	return (boxOne === player) && (boxTwo === player) && (boxThree === player);
 }
 //way for player to win
-//player x wins by rows. 
+//player x wins by rows.
 
+//If you aren't gonna use this code maybe remove it...or maybe you are saving for later consideration?
 /*var xWinsByRow = function(){
 	return tripleXXX(box('a'), box('b'), box('c')) ||
 	  tripleXXX(box('d'), box('e'), box('f')) ||
@@ -89,4 +93,3 @@ var oWinsByDiagnal = function(){
 */
 
 */
-
